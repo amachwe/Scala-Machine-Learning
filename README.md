@@ -3,8 +3,8 @@ Scala Machine Learning Code
 
 Geo Life Tracker data clustering.
 The dataset is available here: https://www.microsoft.com/en-us/download/details.aspx?id=52367
-It contains GPS tracks (about 24 million points) which we load into MongoDB using the WGS 84 point type.
-This allows us to run geo-queries on it.
+It contains GPS tracks (about 24 million points) which we load into MongoDB using the WGS 84 point type (longitude and latitude).
+This allows us to run geo-queries on it. More info here: https://docs.mongodb.com/v3.2/applications/geospatial-indexes/
 
 Then we use Spark and Spark ML to process the data and do K-Means clustering.
 
