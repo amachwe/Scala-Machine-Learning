@@ -12,3 +12,6 @@ We then print out the cluster centres (longitude and latitude) and plot them on 
 
 The full 24 million set with ~ 2000 centres will take a long time.
 On a i7 6th Gen, 16GB RAM and 7200RPM HDD it took about 2 hrs.
+
+
+Blog post on this with more details: http://fisheyefocus.com/fisheyeview/?p=523
